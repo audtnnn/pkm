@@ -13,7 +13,7 @@ store.dispatch(fetchReview());
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/pkm'>
         <App />
       </BrowserRouter>
     </Provider>
